@@ -1,0 +1,19 @@
+TXT
+ 1. Create an external repository with the name TXT, clone the TXT repository to the local computer:  git clone https://github.com/OlenaKrutenko/TXT.git
+
+ 3. Inside the local TXT, create a file “new.txt”:  vim new.txt
+ 4. Add file:  git add
+ 5. Create commit:  git commit -m "add file"
+ 6. Submit a file to an external GitHub repository:   git push
+ 7. Edit the file  “new.txt” 
+  8. Send changes to an external repository:  git commit -am "edit file" ; git push
+ 9.Create file  preferences.txt,  Edit file " preferences.txt”  - add information about owns preferences.
+ 
+ vim preferences.txt - Favorite film - "Friends", favorite dish - salad, favorite season - spring, favorite country - Spain
+ 
+ 11.Create file sklls.txt, add infotmation about skills - vim skills.txt (Skils which I will take on the cource - terminal, postman, Git etc.)
+ 
+ 12. Create commit:  git add _.   git commit -m "create file"  
+ 13.Send two files to the external repositiry: git push
+ 14. Create a file on the web interface  bug_report.txt, create  Commit changes, Modify the file on the web interface bug_report.txt, add a bug report in TXT format,  create  Commit changes (save) on the web interface.
+ 18. Synchronize external and local repository TXT - git pull

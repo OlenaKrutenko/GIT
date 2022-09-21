@@ -1,0 +1,54 @@
+1.On the local repository, make branches for:  git branch
+  BugReports
+  Charles
+  CheckLists
+  Jmeter
+  MobileTesting
+  Postman
+  SQL
+  
+2. Push all branches to an external repository:
+
+
+- git push -u origin Postman
+- git push -u origin Jmeter
+- git push -u origin CheckLists
+- git push -u origin Bag Reports
+- git push -u origin SQL
+- git push -u origin Charles
+- git push -u origin Mobile testing
+
+
+3.In the Bag Reports branch, create a text document with the structure of a bug report:
+- git checkout BugReports
+ touch bugreport.txt
+ vim bugreport.txt
+
+4. Push the bug report structure to the external repository:
+
+
+ git add .
+ git commit -m "add checklist"
+ git push
+
+5. Merge a branch Bag Reports in Main
+ git checkout main
+ git merge BugReports
+
+6.  Push branch main on the external repository:
+git push -u origin main
+
+7. In the  CheckLists branch create structure of checklist: 
+ git checkout CheckLists
+ touch checklist.txt
+ vim  checklist.txt
+ 
+8. Push checklist to the external repository: 
+git add .
+ git commit -m "add checklist"
+ git push
+
+9.  Pull Request CheckLists branch to the main:
+10. Synchronize External and Local branches Main
+git fetch
+git pull
